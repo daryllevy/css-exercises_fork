@@ -1,7 +1,23 @@
+* {
+  padding: 0;
+}
+
 .header  {
+  padding: 15px;
   font-family: monospace;
   background: papayawhip;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
 }
+
+.left-links ul,
+.right-links ul {
+  display: flex;
+  gap: 12px;
+}
+
 
 .logo {
   font-size: 48px;
@@ -14,6 +30,7 @@
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  
 }
 
 a {
@@ -23,3 +40,4 @@ a {
   /* this removes the line under the links */
   text-decoration: none;
 }
+
